@@ -17,13 +17,15 @@ body {
     border-radius: 50px;
     border: none;
 }
-.secondary_btn{
+
+.secondary_btn {
     border: 1px solid #010b55;
     padding: 20px 43px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 50px;
 }
+
 .header_wrapper {
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid #ddd;
@@ -81,6 +83,7 @@ body {
     font-weight: 800;
     line-height: normal;
 }
+
 .banner_textbtn p {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -91,6 +94,7 @@ body {
     margin-bottom: 25px;
     margin-top: 20px;
 }
+
 .banner_textbtn button a {
     color: #FFF;
     font-family: Lato;
@@ -98,34 +102,40 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-   text-decoration: none;
+    text-decoration: none;
 }
+
 .banner_image img {
     max-width: 500px;
 }
 
-.about_wrapper{
+.about_wrapper {
     background-color: #fff;
 }
-.about_content{
+
+.about_content {
     width: 1100px;
     margin: 0 auto;
 }
-.about_content h3{
+
+.about_content h3 {
     font-size: 45px;
     text-align: center;
     margin-top: 100px;
     color: #3d3d3d;
 }
-.about_content .about_parts{
+
+.about_content .about_parts {
     display: flex;
     align-items: center;
     padding: 50px;
 }
-.about_img img{
+
+.about_img img {
     max-width: 500px;
 }
-.about_text h4{
+
+.about_text h4 {
     font-size: 35px;
     color: #3d3d3d;
     padding-bottom: 10px;
@@ -133,13 +143,96 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-.about_text p{
+
+.about_text p {
     font-size: 17px;
     color: #3d3d3d;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 25px;
 }
-.secondary_btn a{
+
+.secondary_btn a {
     text-decoration: none;
     font-size: 18px;
+}
+
+/* Featured Section CSS */
+.featured_wrapper {
+    background-color: #fff;
+}
+
+.featured_content {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.featured_content h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.featured_content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.three_items_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.three_items_wrapper .single_item {
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.three_items_wrapper .single_bg1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.three_items_wrapper .single_bg1 img {
+    height: 470px;
+}
+
+.three_items_wrapper .single_bg2 img {
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.three_items_wrapper .single_bg2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.three_items_wrapper .single_bg3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.only_text_area{
+   display: flex;
+   justify-content: space-around;
+}
+.only_text_area .two {
+    padding-left: 200px;
+}
+.only_text_area a {
+    color: #3a3a3a;
+    font-size: 20px;
 }
